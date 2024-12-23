@@ -78,7 +78,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'flashcards_0h8o',  
         'USER': 'yugraj',         
-        'PASSWORD': 'beFebHRY20hrHWN6xzm6TmcXYLP5dws5',  
+        'PASSWORD': 'beFebHRY2OhrHWN6xzm6TmcXYLP5dws5',  
         'HOST': 'dpg-ctkkd4lumphs73fi11rg-a',  
         'PORT': '5432',         
     }
