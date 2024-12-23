@@ -75,8 +75,12 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'flashcards_0h8o',  
+        'USER': 'yugraj',         
+        'PASSWORD': 'beFebHRY20hrHWN6xzm6TmcXYLP5dws5',  
+        'HOST': 'dpg-ctkkd4lumphs73fi11rg-a',  
+        'PORT': '5432',         
     }
 }
 
