@@ -9,10 +9,6 @@ const SignUp = () => {
 
     const handleSubmit = async(e) => {
         e.preventDefualt();
-
-        try { 
-            const response = await axios.post
-        }
     }
   return (
     <div>
