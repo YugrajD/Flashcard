@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-*t7biyw6_@9il&cww5h=f10d6rr*fny_%4mxp(e@f^u&f&8fk+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['flashcard-dxve.onrender.com', '127.0.0.1', 'localhost']
 
 
 # Application definition
