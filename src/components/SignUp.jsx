@@ -9,6 +9,11 @@ const SignUp = () => {
 
     const handleSubmit = async(e) => {
         e.preventDefualt();
+
+        if (password !== confirmPassword) {
+            alert("Passwords do not match");
+            return;
+        }
     }
   return (
     <div>
@@ -36,7 +41,7 @@ const SignUp = () => {
         <br />
         <button type="submit">Sign Up</button>
     </form>
-    {message && <p>{message}</p>}
+    
 </div>
   )
 }
